@@ -83,16 +83,14 @@ function sum(){
  
 }
 
-let assign=function(callback){
-    callback();
-    
-    
-     
-}
- assign(value);
+let assign=sum();
 
-function  value () {
 
-    console.log("hello world");
-    
+function  value (assign) {
+return assign;
 }
+
+ value()
+ 
+    
+ 
